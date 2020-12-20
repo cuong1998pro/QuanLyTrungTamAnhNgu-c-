@@ -29,13 +29,19 @@ namespace BTL_nhom4_LaptrinhWindows.UCs
 
         private void comboBoxEx3_SelectedIndexChanged(object sender, EventArgs e)
         {
-     
+            try
+            {
+
+           
             int idkhoa = (int)cboKhoa.SelectedValue;
 
             cboThoiGian.DataSource = LopDAO.Instance.LayDanhSachThoiGianCuaMotKhoaHoc(idkhoa);
             cboThoiGian.ValueMember = "id";
             cboThoiGian.DisplayMember = "lich";
-            
+             }catch(Exception ex)
+            {
+
+            }
         }
 
         private void comboBoxEx2_SelectedIndexChanged(object sender, EventArgs e)

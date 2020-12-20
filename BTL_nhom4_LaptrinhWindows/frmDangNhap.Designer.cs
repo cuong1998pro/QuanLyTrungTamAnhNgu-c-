@@ -141,7 +141,7 @@
             this.txtTenDangNhap.Name = "txtTenDangNhap";
             this.txtTenDangNhap.Size = new System.Drawing.Size(194, 20);
             this.txtTenDangNhap.TabIndex = 1;
-            this.txtTenDangNhap.Text = "phuong";
+            this.txtTenDangNhap.Text = "cuong";
             // 
             // labelX1
             // 

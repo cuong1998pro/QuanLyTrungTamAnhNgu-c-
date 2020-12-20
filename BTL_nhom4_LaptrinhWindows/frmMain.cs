@@ -230,5 +230,10 @@ namespace BTL_nhom4_LaptrinhWindows
             frmDanhSachHocVien f = new frmDanhSachHocVien();
             f.ShowDialog();
         }
+
+        private void frmMain_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

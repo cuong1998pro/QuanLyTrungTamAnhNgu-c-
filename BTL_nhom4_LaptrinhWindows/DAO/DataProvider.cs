@@ -11,7 +11,7 @@ namespace BTL_nhom4_LaptrinhWindows.DAO
 {
     public class DataProvider
     {
-        private string connectStr= @"Data Source=.\;Initial Catalog=BTL_N04;Integrated Security=True";
+        private string connectStr= @"Data Source=.\sqlexpress;Initial Catalog=BTL_N04;Integrated Security=True";
 
         private static DataProvider instance = new DataProvider();
         public static DataProvider Instance { get => instance; set => instance = value; }
